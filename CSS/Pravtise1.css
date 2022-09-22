@@ -1,0 +1,40 @@
+/* div:hover{
+    border: 2px solid black;
+    background-color: brown;
+    color: aqua;
+    width: 100%;
+} */
+.Main{
+
+    display: flex;
+    flex-direction: row;
+}
+.source{
+    width: 25%;
+
+margin-left: 50px;
+margin-top: 50px;
+}
+.desti{
+    width: 25%;
+    margin-top: 50px;
+
+
+}
+.button{
+    width: 25%;
+    margin: 50px;
+    
+    /* background-color: aqua; */
+}
+.btt{
+    color: black; 
+    background-color: green;
+}
+.source:hover{
+    background-color: red;
+}
+.desti:hover{
+    /* color: yellow; */
+    background-color: yellow;
+}

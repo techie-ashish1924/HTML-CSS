@@ -1,0 +1,40 @@
+.pera{
+    border: 2px solid black;
+    height: 150px;
+    width: 50%;
+    overflow: scroll;
+}
+
+.List{
+    border: 4px solid black;
+    height: 150px;
+    width: 200px;
+    overflow: scroll;
+    padding-right: 15px;
+}
+
+li{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding-left: 15px;
+    margin-bottom: 5px;
+}
+
+.Image{
+
+    width: 250px;
+    height: 250px;
+    /* float: right; */
+    float: left;
+    /* clear: none; */
+    
+
+}
+
+.Detail{
+    /* clear: none; */
+    /* width: 500px; */
+    /* height: 200px; */
+    /* float: right; */
+
+}

@@ -1,0 +1,45 @@
+section{
+
+    border: 5px solid black;
+    height: 400px;
+    width: 500px;
+}
+
+h1{
+    border: 2px solid red;
+    height: 40px;
+    width: 500px;
+
+     /*  Border radius 15px(top left corner) 50px(top right) 30px 5px
+                    
+     */
+    border-radius: 10px 20px 30px 40px;
+    text-align: center;
+}
+
+div{
+    border: 3px solid red;
+    border-radius: 20px 30px 40px 50px;
+    /* text-align: center; */
+}
+
+div:hover{
+
+    /* width: 800px; */
+    /* height: 20px; */
+    background-color: blue;
+}
+
+section:nth-of-type(2)
+{
+    border: 5px solid red;
+    width: 500px;
+    height: 150px;
+
+    background-image: url("https://image.shutterstock.com/image-photo/black-wall-texture-rough-background-260nw-1450341161.jpg");
+    background-repeat: no-repeat;
+    background-position: 0px;
+    background-size: cover;
+
+    background-size: fill;
+}

@@ -1,0 +1,35 @@
+.First{
+    border: 2px solid black;
+    width: maxvw;
+    height: maxvh;
+    padding: 15px;
+    background-color: aqua;
+}
+
+@media screen and(min-width:50px) {
+
+    h1{
+        font-size: 3rem;
+    }
+    .First{
+        background-color: yellow;
+    }
+    
+}
+
+@media screen and(max-width:432px){
+
+    h1{
+        font-size: 1.8rem;
+    }
+    .First{
+        background-color: blanchedalmond;
+    }
+    
+}
+
+@media screen and (max-width:72px)
+{
+
+    
+}

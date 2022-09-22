@@ -1,0 +1,25 @@
+
+/* element selector */
+h1{
+    color: red;
+}
+
+/* // using class selector */
+
+.First{
+    color: aqua;
+}
+
+/* using id selector */
+#heading{
+    color: red;
+}
+
+section{
+    color: hotpink;
+}
+
+section ol li{
+
+    color: red;
+}

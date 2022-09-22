@@ -1,0 +1,12 @@
+html  file creation - > .html extension
+
+
+                          TAGS OR ELEMENTS
+
+    exp ->  <TagName> .............</TagName>
+            opening tag             closing tag
+
+            1- HTML tag - > <HTML>
+
+
+--> Html has a tree like structure.

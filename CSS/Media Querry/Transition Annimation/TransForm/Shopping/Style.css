@@ -1,0 +1,52 @@
+.Main{
+    width: 100vw;
+    height: 100vh;
+
+    border: 2px solid black;
+    /* display: flex; */
+    padding: 5px;
+
+    
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+.box:hover{
+    transition: 1s;
+    width: 120px;
+    height: 120px;
+}
+
+.one{
+    background-color: antiquewhite;
+}
+.two{
+    background-color: aqua;
+}
+.three{
+    background-color: darkblue;
+}
+
+.First{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+    padding: 10px;
+
+}
+
+.Second{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.Third{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}

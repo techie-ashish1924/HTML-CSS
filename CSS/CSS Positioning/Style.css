@@ -1,0 +1,66 @@
+div{
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+    border: 3px solid black;
+    /* position: static; */
+ }
+
+#Static{
+
+    position: static;
+
+    top: 10px;
+    left: 50px;
+
+ } 
+
+ #Relative{
+
+    position: relative;
+    top: 40px;
+    left: 50px;
+ }
+
+ #second{
+    position: static;
+    top: 20px;
+    left: 20px;
+ }
+
+ #second1{
+    position: relative;
+    top: 20px;
+    left: 20px;
+ }
+
+ #second2{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+ }
+
+ #second3{
+    position: fixed;
+    top: 20px;
+    left: 40px;
+ }
+
+ /* #Absolute{ */
+    /* position: absolute; */
+    /* top: 4px; */
+    /* left: 5px; */
+ /* } */
+
+ /* #second */
+ /* { */
+    /* position: relative; */
+    /* top: 20px; */
+    /* left: 50px; */
+ /* } */
+
+ /*  */
+ 
+ 
+ 
+ 

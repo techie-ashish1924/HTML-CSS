@@ -1,0 +1,26 @@
+section{
+
+    height: 40vh;
+    width: 50vh;
+    border: 5px solid black;
+    background-color: green;
+}
+
+section:nth-of-type(2)
+{
+    height: 40%;
+    width: 50%;
+    border: 5px solid red;
+    background-color:yellow;
+}
+
+html{
+    font-size: 10px;
+}
+article{
+    font-size: 20px;
+}
+ul{
+    /* font-size: 1.5em; */
+    font-size: 2rem;
+}

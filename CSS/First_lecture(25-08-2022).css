@@ -1,0 +1,79 @@
+/* CSS - > Cascading style sheet 
+
+CSS
+1 - > Inline CSS
+2 -> Internal Css
+3 -> External Css
+
+        CSS SELECTOR 
+
+    a{property name : property value ;}
+
+a -> element
+: -> seperator
+Inline css draw back - > is not prefered way to provide style
+
+External Css
+
+different type os css selector --> 
+1-> 
+
+universal -> we provide all property to our body in once then we use universal connector
+I.D ->  We provide id's and apply property on this id's and there are more specific and we can use id like # id name
+class ->  there are more generic      
+Attribute ->  when we want to target any element syntax- >    attribute name[type="text"]
+Elemnt ->
+
+Combinator -> It is used to fetch all child data....
+Adjacent siblling - > 
+
+
+ *{
+    /* Universal connector  we provide  
+    inline property ki priority jyada hoti hai.
+    
+    color: green;
+} 
+ li{
+    color: green;
+} 
+*/
+
+
+/* class connecotr */
+.First{
+    font-weight: 900;
+    color: green;
+    border: 2px dashed green;
+}
+
+
+/* id connector */
+#second{
+    font-weight: 500;
+    color: red;
+    border: 2px solid red; 
+}
+
+/* Attribute connector */
+
+input[type="text"]
+{
+    background-color: lightcoral;
+}
+input[type = "password"]
+{
+    background-color: aqua;
+}
+
+ul + li{
+    color: red;
+}
+
+h1 + p{
+    color: green;
+}
+h1 p{
+    color: blue;
+    border: 2px solid black;
+}

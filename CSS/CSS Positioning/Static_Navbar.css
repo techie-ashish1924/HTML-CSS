@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#Navbar{
+    /* display: inline-block; */
+    background-color: aqua;
+    height: 40px;
+    padding: 20px;
+    margin: 20px;
+}
+li{
+    list-style: none;
+    font-size: 1.8rem;
+    display: inline-block;
+    padding-right: 180px;
+    padding-left: 20px;
+    /* border: 2px solid black; */
+}
+
+ul{
+    /* list-style: none; */
+   
+}
+a{
+    color: green;
+    text-decoration: none;
+}
+/*  */
+/* li:nth-last-of-type(1) */
+/* { */
+    /* position: static; */
+    /* padding-left: -50px; */
+/*      */
+/*      */
+/* } */
+/*  */

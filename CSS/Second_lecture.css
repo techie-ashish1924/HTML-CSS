@@ -1,0 +1,32 @@
+li:first-child{
+    color: red;
+}
+/*  */
+li:nth-last-of-type(odd)
+{
+    color: blue;
+}
+
+/* li:nth-of-type() -->  */
+
+li:nth-of-type(2n + 3)
+{
+    color: green;
+}
+
+p:nth-child(2)
+{
+    color: greenyellow;
+}
+
+/* pseudo element */
+h1::before {
+    content:"this is before ";
+    color: brown;
+    
+}
+
+h1::after{
+    content: '/260E';
+    color: blueviolet;
+}
