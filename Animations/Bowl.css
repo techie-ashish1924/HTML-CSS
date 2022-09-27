@@ -1,0 +1,49 @@
+/* section{ */
+    /* width: 250px; */
+    /* height: 250px; */
+    /* border: 4px solid black; */
+    /* background-color: aqua; */
+    /* animation-duration: 2s; */
+    /* animation-name: loader; */
+/* } */
+/*  */
+/*  */
+/* @keyframes loader{ */
+    /* from{ */
+        /* width: 20px; */
+    /* } */
+    /* to{ */
+        /* width: 600px; */
+    /* } */
+/* } */
+/*  */
+/* section:nth-of-type(2)  */
+/* { */
+    /* animation-timing-function: linear; */
+/* } */
+
+section{
+
+    /* border: 2px solid black; */
+    animation-name: Ball;
+    animation-duration: 2s;
+    /* animation-timing-function: infinite; */
+    animation-iteration-count: infinite;
+    /* animation-fill-mode: both; */
+    /* animation:l; */
+}
+
+@keyframes Ball{
+    0%{
+        transform: translate(px);
+        
+    }
+    50%{
+        transform: translate(0px,200px);
+                
+    }
+} 
+
+/* .Plane{ */
+    /* text-shadow: 10px 2px blue; */
+/* } */
